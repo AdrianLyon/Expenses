@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS companydb;
+
+USE companydb;
+
+CREATE TABLE IF NOT EXISTS employee(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NULL,
+    salary INT,
+    PRIMARY KEY(id)
+)
